@@ -48,6 +48,7 @@
     "url": "https://github.com/xiaoxian521"
   },
   "dependencies": {
+    "@form-create/element-ui": "3",
     "@pureadmin/descriptions": "^1.2.1",
     "@pureadmin/table": "^3.2.0",
     "@pureadmin/utils": "^2.4.8",

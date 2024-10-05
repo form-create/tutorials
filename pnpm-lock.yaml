@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@form-create/element-ui':
+        specifier: '3'
+        version: 3.2.10(vue@3.4.38(typescript@5.5.4))
       '@pureadmin/descriptions':
         specifier: ^1.2.1
         version: 1.2.1(echarts@5.5.1)(element-plus@2.8.0(vue@3.4.38(typescript@5.5.4)))(typescript@5.5.4)
@@ -833,6 +836,43 @@ packages:
 
   '@floating-ui/utils@0.2.7':
     resolution: {integrity: sha512-X8R8Oj771YRl/w+c1HqAC1szL8zWQRwFvgDwT129k9ACdBoud/+/rX9V0qiMl6LWUdP9voC2nDVZYPMQQsb6eA==}
+
+  '@form-create/component-elm-checkbox@3.2.8':
+    resolution: {integrity: sha512-ol/SyzzeDueUTd87MPnYydOe7Sc6cL8S/Uhv5QmWofMY1TuuBet9DPb65JjyS6Lk51/cl3TabvtJj93EAxL6KA==}
+
+  '@form-create/component-elm-frame@3.2.0':
+    resolution: {integrity: sha512-XJnYRwZBaViqSF4oQpPucmQiMctG9mAPeNpggUJG8rYZv/IxPb4qNovWaZsqfiCY8wyKtRTkWqqZFe9r9ubGUg==}
+
+  '@form-create/component-elm-group@3.2.8':
+    resolution: {integrity: sha512-TiwBNP+zDfFhanAWrazfIWyhElXTKIccX/jk+3zYxYpmxh1OVPa1cGaJ9ovZyV3105iZBtGZG2zn2DjHzvEPsQ==}
+
+  '@form-create/component-elm-radio@3.2.8':
+    resolution: {integrity: sha512-6rWhja+Tjh8vsd5dmmWvzT4T8L/TSB27rpAdYuw+w8JvbpjfhMuYUTk+9y+L7EUGPWk8E1yTSKE6YNXVvFtyqQ==}
+
+  '@form-create/component-elm-select@3.2.0':
+    resolution: {integrity: sha512-jzrrUyLSVDRZHTap3MYVqNub/A00X+hpLn2DCiFj6hNPZC63fuScHhIKWjkQSF4KBDGPYNfi69kFI7SCYPhhjQ==}
+
+  '@form-create/component-elm-tree@3.2.9':
+    resolution: {integrity: sha512-5NG4YeFZ5jzN9Aa0JFuFD8OGKXBqSHSN0KRgxxUgdhzRg8hcRq/JODuN7yYMa7YrBP0ecTKyel8Q4ufR5Ct8iw==}
+
+  '@form-create/component-elm-upload@3.2.9':
+    resolution: {integrity: sha512-PdYlUCRs7x/zQjkDkTX9q3116ysKUPZ4R4OwzhSc430JPLSVUCx/CqlhenbAnqZFEj5khwnvppbYSzrTTaDa4A==}
+
+  '@form-create/component-subform@3.1.34':
+    resolution: {integrity: sha512-OJcFH/7MTHx7JLEjDK/weS27qfuFWAI+OK+gXTJ2jIt9aZkGWF/EWkjetiJLt5a0KMw4Z15wOS2XCY9pVK9vlA==}
+
+  '@form-create/core@3.2.10':
+    resolution: {integrity: sha512-rRmssJjuVFp4aEecKnlh4mD3d/67BwQB2NDoxowwXckFXksFyr4q+77ir0tbFRmQ9+9qYFnj7F3MR0/OGSEdRQ==}
+    peerDependencies:
+      vue: ^3.1.0
+
+  '@form-create/element-ui@3.2.10':
+    resolution: {integrity: sha512-hbNVOnVmzIEanUIjXiJmVCYJasW4p1OBIQ7Pcwg1H/i7WNQQM1iE0aWlM9uRY8/MxtS4UEJm3FtgBL9GvYPHjw==}
+    peerDependencies:
+      vue: ^3.1.0
+
+  '@form-create/utils@3.2.0':
+    resolution: {integrity: sha512-fqc7/l+US76NhloxMF3xE7UafYgxA8jU+t5WrAhmjaIAJ0vUNp6ScL/kdwN4nfOvjByZ/Q8BFQT0wqrp4lcgtw==}
 
   '@humanwhocodes/module-importer@1.0.1':
     resolution: {integrity: sha512-bxveV4V8v5Yb4ncFTT3rPSgZBOpCkjfK0y4oVVVJwIuDVBRMDXrPyXRL988i5ap9m9bnyEEjWfm5WkBmtffLfA==}
@@ -4429,6 +4469,57 @@ snapshots:
       '@floating-ui/utils': 0.2.7
 
   '@floating-ui/utils@0.2.7': {}
+
+  '@form-create/component-elm-checkbox@3.2.8':
+    dependencies:
+      '@form-create/utils': 3.2.0
+
+  '@form-create/component-elm-frame@3.2.0':
+    dependencies:
+      '@form-create/utils': 3.2.0
+
+  '@form-create/component-elm-group@3.2.8':
+    dependencies:
+      '@form-create/utils': 3.2.0
+
+  '@form-create/component-elm-radio@3.2.8':
+    dependencies:
+      '@form-create/utils': 3.2.0
+
+  '@form-create/component-elm-select@3.2.0':
+    dependencies:
+      '@form-create/utils': 3.2.0
+
+  '@form-create/component-elm-tree@3.2.9':
+    dependencies:
+      '@form-create/utils': 3.2.0
+
+  '@form-create/component-elm-upload@3.2.9':
+    dependencies:
+      '@form-create/utils': 3.2.0
+
+  '@form-create/component-subform@3.1.34': {}
+
+  '@form-create/core@3.2.10(vue@3.4.38(typescript@5.5.4))':
+    dependencies:
+      '@form-create/utils': 3.2.0
+      vue: 3.4.38(typescript@5.5.4)
+
+  '@form-create/element-ui@3.2.10(vue@3.4.38(typescript@5.5.4))':
+    dependencies:
+      '@form-create/component-elm-checkbox': 3.2.8
+      '@form-create/component-elm-frame': 3.2.0
+      '@form-create/component-elm-group': 3.2.8
+      '@form-create/component-elm-radio': 3.2.8
+      '@form-create/component-elm-select': 3.2.0
+      '@form-create/component-elm-tree': 3.2.9
+      '@form-create/component-elm-upload': 3.2.9
+      '@form-create/component-subform': 3.1.34
+      '@form-create/core': 3.2.10(vue@3.4.38(typescript@5.5.4))
+      '@form-create/utils': 3.2.0
+      vue: 3.4.38(typescript@5.5.4)
+
+  '@form-create/utils@3.2.0': {}
 
   '@humanwhocodes/module-importer@1.0.1': {}
 
