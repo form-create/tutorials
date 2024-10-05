@@ -1,6 +1,6 @@
 {
-  "name": "pure-admin-thin",
-  "version": "5.8.0",
+  "name": "form-create-lesson",
+  "version": "1.0.1",
   "private": true,
   "type": "module",
   "scripts": {
@@ -22,7 +22,8 @@
     "preinstall": "npx only-allow pnpm"
   },
   "keywords": [
-    "pure-admin-thin",
+    "form-create",
+    "formCreate",
     "vue-pure-admin",
     "element-plus",
     "tailwindcss",
@@ -33,19 +34,18 @@
     "vite",
     "esm"
   ],
-  "homepage": "https://github.com/pure-admin/pure-admin-thin",
+  "homepage": "https://github.com/Arayui/formCreateLesson",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pure-admin/pure-admin-thin.git"
+    "url": "git+https://github.com/Arayui/formCreateLesson.git"
   },
   "bugs": {
-    "url": "https://github.com/pure-admin/vue-pure-admin/issues"
+    "url": "https://github.com/Arayui/formCreateLesson/issues"
   },
   "license": "MIT",
   "author": {
-    "name": "xiaoxian521",
-    "email": "pureadmin@163.com",
-    "url": "https://github.com/xiaoxian521"
+    "name": "Arayui",
+    "url": "https://github.com/Arayui"
   },
   "dependencies": {
     "@form-create/element-ui": "3",
