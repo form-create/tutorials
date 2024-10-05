@@ -7,6 +7,7 @@ import { MotionPlugin } from "@vueuse/motion";
 import { createApp, type Directive } from "vue";
 import { useElementPlus } from "@/plugins/elementPlus";
 import { injectResponsiveStorage } from "@/utils/responsive";
+import formCreate from "@form-create/element-ui";
 
 import Table from "@pureadmin/table";
 // import PureDescriptions from "@pureadmin/descriptions";
@@ -57,7 +58,7 @@ getPlatformConfig(app).then(async config => {
   app.use(router);
   await router.isReady();
   injectResponsiveStorage(app, config);
-  app.use(MotionPlugin).use(useElementPlus).use(Table);
+  app.use(MotionPlugin).use(useElementPlus).use(Table).use(formCreate);
   // .use(PureDescriptions)
   // .use(useEcharts);
   app.mount("#app");
