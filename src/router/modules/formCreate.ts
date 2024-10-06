@@ -16,6 +16,15 @@ export default {
         title: "01.简单入门",
         showParent: true
       }
+    },
+    {
+      path: "/formCreate/lesson02",
+      name: "lesson02",
+      component: () => import("@/views/fc/lesson02.vue"),
+      meta: {
+        title: "02.组件渲染",
+        showParent: true
+      }
     }
   ]
 } satisfies RouteConfigsTable;
