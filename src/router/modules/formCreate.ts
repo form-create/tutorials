@@ -25,6 +25,15 @@ export default {
         title: "02.组件渲染",
         showParent: true
       }
+    },
+    {
+      path: "/formCreate/lesson03",
+      name: "lesson03",
+      component: () => import("@/views/fc/lesson03.vue"),
+      meta: {
+        title: "03.表单联动",
+        showParent: true
+      }
     }
   ]
 } satisfies RouteConfigsTable;
