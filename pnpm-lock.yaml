@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@form-create/element-ui':
-        specifier: '3'
-        version: 3.2.10(vue@3.4.38(typescript@5.5.4))
+        specifier: ^3.2.11
+        version: 3.2.11(vue@3.4.38(typescript@5.5.4))
       '@pureadmin/descriptions':
         specifier: ^1.2.1
         version: 1.2.1(echarts@5.5.1)(element-plus@2.8.0(vue@3.4.38(typescript@5.5.4)))(typescript@5.5.4)
@@ -861,13 +861,13 @@ packages:
   '@form-create/component-subform@3.1.34':
     resolution: {integrity: sha512-OJcFH/7MTHx7JLEjDK/weS27qfuFWAI+OK+gXTJ2jIt9aZkGWF/EWkjetiJLt5a0KMw4Z15wOS2XCY9pVK9vlA==}
 
-  '@form-create/core@3.2.10':
-    resolution: {integrity: sha512-rRmssJjuVFp4aEecKnlh4mD3d/67BwQB2NDoxowwXckFXksFyr4q+77ir0tbFRmQ9+9qYFnj7F3MR0/OGSEdRQ==}
+  '@form-create/core@3.2.11':
+    resolution: {integrity: sha512-xcaAxFSpAaVRWSpZ3ikrr89OmGidtN1y2YC7mQcQ/Hs7KvdbipH2I27JF5qm98+S7gs/e3Z9jrscngmSwsLw7g==}
     peerDependencies:
       vue: ^3.1.0
 
-  '@form-create/element-ui@3.2.10':
-    resolution: {integrity: sha512-hbNVOnVmzIEanUIjXiJmVCYJasW4p1OBIQ7Pcwg1H/i7WNQQM1iE0aWlM9uRY8/MxtS4UEJm3FtgBL9GvYPHjw==}
+  '@form-create/element-ui@3.2.11':
+    resolution: {integrity: sha512-cJpKuu5zGNJK5TlsXTLqfc972aAVYk4q2ljn0ERfxM89oRl+2tkatOVr2vPYqGj/Z4Ufpr1R/ZP+RGGl2jVIHQ==}
     peerDependencies:
       vue: ^3.1.0
 
@@ -4500,12 +4500,12 @@ snapshots:
 
   '@form-create/component-subform@3.1.34': {}
 
-  '@form-create/core@3.2.10(vue@3.4.38(typescript@5.5.4))':
+  '@form-create/core@3.2.11(vue@3.4.38(typescript@5.5.4))':
     dependencies:
       '@form-create/utils': 3.2.0
       vue: 3.4.38(typescript@5.5.4)
 
-  '@form-create/element-ui@3.2.10(vue@3.4.38(typescript@5.5.4))':
+  '@form-create/element-ui@3.2.11(vue@3.4.38(typescript@5.5.4))':
     dependencies:
       '@form-create/component-elm-checkbox': 3.2.8
       '@form-create/component-elm-frame': 3.2.0
@@ -4515,7 +4515,7 @@ snapshots:
       '@form-create/component-elm-tree': 3.2.9
       '@form-create/component-elm-upload': 3.2.9
       '@form-create/component-subform': 3.1.34
-      '@form-create/core': 3.2.10(vue@3.4.38(typescript@5.5.4))
+      '@form-create/core': 3.2.11(vue@3.4.38(typescript@5.5.4))
       '@form-create/utils': 3.2.0
       vue: 3.4.38(typescript@5.5.4)
 
