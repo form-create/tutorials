@@ -43,6 +43,15 @@ export default {
         title: "04.表单联动(续)",
         showParent: true
       }
+    },
+    {
+      path: "/formCreate/lesson05",
+      name: "lesson05",
+      component: () => import("@/views/fc/lesson05.vue"),
+      meta: {
+        title: "05.事件监听",
+        showParent: true
+      }
     }
   ]
 } satisfies RouteConfigsTable;
