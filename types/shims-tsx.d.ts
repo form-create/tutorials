@@ -1,4 +1,4 @@
-import Vue, { VNode } from "vue";
+import type Vue, { VNode } from "vue";
 
 declare module "*.tsx" {
   import Vue from "compatible-vue";
