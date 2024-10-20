@@ -52,6 +52,15 @@ export default {
         title: "05.事件监听",
         showParent: true
       }
+    },
+    {
+      path: "/formCreate/lesson06",
+      name: "lesson06",
+      component: () => import("@/views/fc/lesson06.vue"),
+      meta: {
+        title: "06.Update配置",
+        showParent: true
+      }
     }
   ]
 } satisfies RouteConfigsTable;
