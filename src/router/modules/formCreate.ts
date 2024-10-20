@@ -61,6 +61,15 @@ export default {
         title: "06.Update配置",
         showParent: true
       }
+    },
+    {
+      path: "/formCreate/lesson07",
+      name: "lesson07",
+      component: () => import("@/views/fc/lesson07.vue"),
+      meta: {
+        title: "07.Options配置",
+        showParent: true
+      }
     }
   ]
 } satisfies RouteConfigsTable;
