@@ -48,7 +48,7 @@
     "url": "https://github.com/Arayui"
   },
   "dependencies": {
-    "@form-create/element-ui": "^3.2.11",
+    "@form-create/element-ui": "^3.2.12",
     "@pureadmin/descriptions": "^1.2.1",
     "@pureadmin/table": "^3.2.0",
     "@pureadmin/utils": "^2.4.8",
