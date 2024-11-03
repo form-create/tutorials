@@ -6,7 +6,7 @@ export default defineFakeRoute([
     method: "get",
     response(processedRequest, _, response) {
       const { headers } = processedRequest;
-      if (headers["authorization"] === "Bearer token") {
+      if (headers["authorization"].includes("Bearer")) {
         return {
           code: 200,
           message: "ok",

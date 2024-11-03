@@ -88,6 +88,15 @@ export default {
         title: "09.GlobalAPI",
         showParent: true
       }
+    },
+    {
+      path: "/formCreate/lesson10",
+      name: "lesson10",
+      component: () => import("@/views/fc/lesson10.vue"),
+      meta: {
+        title: "10.Fetch",
+        showParent: true
+      }
     }
   ]
 } satisfies RouteConfigsTable;

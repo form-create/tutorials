@@ -63,3 +63,40 @@ getPlatformConfig(app).then(async config => {
   // .use(useEcharts);
   app.mount("#app");
 });
+
+// import { http } from "@/utils/http";
+
+// formCreate.fetch = ({
+//   action,
+//   method,
+//   data,
+//   dataType,
+//   withCredentials,
+//   headers,
+//   onSuccess,
+//   onError
+// }) => {
+//   if (!action) {
+//     onError(new Error("请求地址不能为空"));
+//     return;
+//   }
+
+//   if (dataType === "formData") {
+//     data = Object.entries(data).reduce((prev, cur) => {
+//       const [k, v] = cur;
+//       prev.append(k, v);
+//       return prev;
+//     }, new FormData());
+//   }
+
+//   http
+//     .request(null, null, {
+//       url: action,
+//       method: method || "get",
+//       withCredentials,
+//       headers,
+//       data
+//     })
+//     .then(onSuccess)
+//     .catch(onError);
+// };
