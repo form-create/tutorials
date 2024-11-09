@@ -1,6 +1,6 @@
 {
-  "name": "form-create-lesson",
-  "version": "1.0.1",
+  "name": "form-create-tutorials",
+  "version": "1.0.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -23,24 +23,22 @@
   },
   "keywords": [
     "form-create",
-    "formCreate",
+    "form-create-tutorials",
     "vue-pure-admin",
     "element-plus",
-    "tailwindcss",
     "pure-admin",
     "typescript",
-    "pinia",
     "vue3",
     "vite",
     "esm"
   ],
-  "homepage": "https://github.com/Arayui/formCreateLesson",
+  "homepage": "https://github.com/form-create/tutorials",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Arayui/formCreateLesson.git"
+    "url": "git+https://github.com/form-create/tutorials.git"
   },
   "bugs": {
-    "url": "https://github.com/Arayui/formCreateLesson/issues"
+    "url": "https://github.com/form-create/tutorials/issues"
   },
   "license": "MIT",
   "author": {
