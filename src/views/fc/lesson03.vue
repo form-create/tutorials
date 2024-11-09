@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import formCreate from "@form-create/element-ui";
 import type { Options, Rule, Api } from "@form-create/element-ui";
-import { title } from "process";
 import { onMounted, ref, type Ref } from "vue";
 
 const formData = ref({});
