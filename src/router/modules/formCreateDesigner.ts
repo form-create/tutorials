@@ -9,6 +9,16 @@ export default {
   },
   children: [
     {
+      path: "/designer/render",
+      name: "Render",
+      component: () => import("@/views/fd/formCreate.vue"),
+      meta: {
+        title: "表单渲染",
+        showParent: true,
+        keepAlive: true
+      }
+    },
+    {
       path: "/designer/lesson01",
       name: "Designer01",
       component: () => import("@/views/fd/lesson01.vue"),
