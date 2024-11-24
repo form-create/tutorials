@@ -8,13 +8,21 @@ const TITLE = getConfig("Title");
   <footer
     class="layout-footer text-[rgba(0,0,0,0.6)] dark:text-[rgba(220,220,242,0.8)]"
   >
-    Copyright © 2020-present
+    Copyright © 2024
+    <a
+      class="hover:text-primary"
+      href="https://github.com/form-create/tutorials"
+      target="_blank"
+    >
+      &nbsp;{{ TITLE }}
+    </a>
+    &nbsp;&nbsp;|&nbsp;&nbsp;
     <a
       class="hover:text-primary"
       href="https://github.com/pure-admin"
       target="_blank"
     >
-      &nbsp;{{ TITLE }}
+      Powered by pure-admin
     </a>
   </footer>
 </template>
