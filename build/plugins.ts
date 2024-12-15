@@ -11,8 +11,6 @@ import { configCompressPlugin } from "./compress";
 import removeNoMatch from "vite-plugin-router-warn";
 import { visualizer } from "rollup-plugin-visualizer";
 import removeConsole from "vite-plugin-remove-console";
-import { themePreprocessorPlugin } from "@pureadmin/theme";
-import { genScssMultipleScopeVars } from "../src/layout/theme";
 import { vitePluginFakeServer } from "vite-plugin-fake-server";
 
 export function getPluginsList(
@@ -49,13 +47,6 @@ export function getPluginsList(
       include: "mock",
       infixName: false,
       enableProd: true
-    }),
-    // 自定义主题
-    themePreprocessorPlugin({
-      scss: {
-        multipleScopeVars: genScssMultipleScopeVars(),
-        extract: true
-      }
     }),
     // svg组件化支持
     svgLoader(),
