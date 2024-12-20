@@ -27,6 +27,16 @@ export default {
         showParent: true,
         keepAlive: true
       }
+    },
+    {
+      path: "/designer/lesson02",
+      name: "Designer02",
+      component: () => import("@/views/fd/lesson02.vue"),
+      meta: {
+        title: "02.自定义组件",
+        showParent: true,
+        keepAlive: true
+      }
     }
   ]
 } satisfies RouteConfigsTable;

@@ -54,6 +54,10 @@ import "tippy.js/themes/light.css";
 import VueTippy from "vue-tippy";
 app.use(VueTippy);
 
+// 为FormCreate和Designer注入组件信息
+import { registerComponents } from "@/plugins/formCreate";
+registerComponents();
+
 getPlatformConfig(app).then(async config => {
   setupStore(app);
   app.use(router);
