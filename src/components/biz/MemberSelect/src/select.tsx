@@ -33,7 +33,7 @@ export default defineComponent({
   setup(props, { emit }) {
     const members = ref([] as Member[]);
     const data = computed({
-      get: () => props.modelValue,
+      get: () => (props.multiple ? props.modelValue : props.modelValue[0]),
       set: value => {
         if (props.readonly) return;
         emit("update:modelValue", Array.isArray(value) ? value : [value]);
