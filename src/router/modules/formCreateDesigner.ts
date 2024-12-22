@@ -37,6 +37,16 @@ export default {
         showParent: true,
         keepAlive: true
       }
+    },
+    {
+      path: "/designer/lesson03",
+      name: "Designer03",
+      component: () => import("@/views/fd/lesson03.vue"),
+      meta: {
+        title: "03.拓展右侧配置项",
+        showParent: true,
+        keepAlive: true
+      }
     }
   ]
 } satisfies RouteConfigsTable;
