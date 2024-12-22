@@ -47,6 +47,16 @@ export default {
         showParent: true,
         keepAlive: true
       }
+    },
+    {
+      path: "/designer/lesson04",
+      name: "Designer04",
+      component: () => import("@/views/fd/lesson04.vue"),
+      meta: {
+        title: "04.配置功能模块",
+        showParent: true,
+        keepAlive: true
+      }
     }
   ]
 } satisfies RouteConfigsTable;
