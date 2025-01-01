@@ -67,6 +67,16 @@ export default {
         showParent: true,
         keepAlive: true
       }
+    },
+    {
+      path: "/designer/lesson06",
+      name: "Designer06",
+      component: () => import("@/views/fd/lesson06.vue"),
+      meta: {
+        title: "06.事件与方法",
+        showParent: true,
+        keepAlive: true
+      }
     }
   ]
 } satisfies RouteConfigsTable;
