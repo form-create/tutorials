@@ -45,7 +45,23 @@ const members = [
   }
 ];
 
+const depts = [
+  { id: "1", name: "管理" },
+  { id: "2", name: "用户" }
+];
+
 export default defineFakeRoute([
+  {
+    url: "/dept",
+    method: "get",
+    response() {
+      return {
+        code: 200,
+        message: "ok",
+        data: depts
+      };
+    }
+  },
   {
     url: "/member/:deptId",
     method: "get",
