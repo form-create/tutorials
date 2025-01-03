@@ -10,13 +10,15 @@ This project is a lesson's resource code based by pure-admin-thin.
 
 ## Video Of Lesson
 
-`Unpublished`
+[bilibili](https://space.bilibili.com/266732245)
 
 ## Docs Of FormCreate
 
 [FormCreate Of Vue3](https://www.form-create.com/v3/guide/)
 
 [FormCreate Of Vue2](https://www.form-create.com/v2/guide/)
+
+[FcDesigner](https://view.form-create.com/)
 
 ## Maintainer
 
