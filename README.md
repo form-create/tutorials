@@ -1,4 +1,4 @@
-<h1>FormCreate教程</h1>
+<h1>FormCreate视频教程</h1>
 
 [![license](https://img.shields.io/github/license/arayui/formCreateLesson.svg)](LICENSE)
 
@@ -6,17 +6,23 @@
 
 ## 介绍
 
-该项目是FormCreate教学视频对应的原项目，基于pure-admin-thin。
+该项目是FormCreate视频教程对应的原项目，基于pure-admin-thin。
 
 ## 配套视频
 
-`暂未上架`
+[bilibili](https://space.bilibili.com/266732245)
+
+如果视频对您有帮助，欢迎您为我们的[开源项目](https://github.com/xaboy/form-create)点击 "Star" 支持一下 谢谢！
+
+本系列教程还在不断完善中,如有您有任何建议[请在这里提出](https://github.com/form-create/tutorials/issues/new)
 
 ## FormCreate文档
 
-[点我查看 FormCreteV3 文档](https://www.form-create.com/v3/guide/)
+[FormCreteV3 文档](https://www.form-create.com/v3/guide/)
 
-[点我查看 FormCreteV2 文档](https://www.form-create.com/v2/guide/)
+[FormCreteV2 文档](https://www.form-create.com/v2/guide/)
+
+[表单设计器文档](https://view.form-create.com/)
 
 ## 维护者
 
