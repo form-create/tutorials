@@ -43,7 +43,7 @@ const config: Config = {
         },
         {
           type: "switch",
-          field: "$required",
+          field: "formCreate$required",
           title: "是否必填"
         }
       ];
