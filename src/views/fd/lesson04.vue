@@ -1,15 +1,45 @@
 <script setup lang="ts">
-import { onMounted, ref, useTemplateRef, type Ref } from "vue";
-import MemberSelectRule from "./rules/MemberSelectRule";
-import CardRule from "./rules/CardRule";
+import { Config } from "@form-create/designer";
+import { ref, useTemplateRef, type Ref } from "vue";
 
 defineOptions({
-  name: "Designer02"
+  name: "Designer04"
 });
 
 const designer = useTemplateRef("designer") as Ref<
   InstanceType<typeof import("@form-create/designer").FcDesigner>
 >;
+
+const config: Config = {
+  autoActive: true,
+  // 隐藏内置组件
+  hiddenItem: ["input"],
+  hiddenMenu: ["layout"],
+  // 隐藏拖拽操作
+  hiddenDragBtn: true,
+  hiddenDragMenu: true,
+  // 显示保存按钮
+  showSaveBtn: true,
+  // 隐藏配置
+  showFormConfig: false,
+  showControl: false,
+  showBaseForm: false,
+  // showPropsForm: false,
+  // showStyleForm: false,
+  showEventForm: false,
+  showValidateForm: false,
+  // 隐藏组件配置
+  // showConfig: false
+  // 属性配置控制
+  // hiddenItemConfig: {
+  //   default: ["disabled"],
+  //   textarea: ["readonly"]
+  // },
+  disabledItemConfig: {
+    default: ["disabled"],
+    textarea: ["readonly"]
+  }
+};
 
 const modalVisible = ref(false);
 
@@ -22,27 +52,9 @@ const handleRule = () => {
   modalVisible.value = true;
   json.value = designer.value?.getJson();
 };
-
-onMounted(() => {
-  designer.value.addComponent(MemberSelectRule);
-  designer.value.addComponent(CardRule);
-  designer.value.addMenu({
-    name: "biz",
-    title: "业务组件",
-    list: [
-      {
-        name: "MemberSelect",
-        label: "成员选择",
-        icon: "icon-select"
-      },
-      {
-        name: "elCard",
-        label: "自定义卡片",
-        icon: "icon-card"
-      }
-    ]
-  });
-});
+const handleSave = data => {
+  console.log(data);
+};
 </script>
 
 <template>
@@ -51,7 +63,7 @@ onMounted(() => {
       <el-button type="primary" @click="handelOption">导出 Option</el-button>
       <el-button type="success" @click="handleRule">导出 Rule</el-button>
     </div>
-    <FcDesigner ref="designer" />
+    <FcDesigner ref="designer" :config="config" @save="handleSave" />
     <el-dialog
       v-model="modalVisible"
       title="导出JSON"
